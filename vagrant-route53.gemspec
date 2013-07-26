@@ -8,7 +8,7 @@ Gem::Specification.new do |gem|
   gem.version       = Vagrant::Route53::VERSION
   gem.authors       = ["Anthony Scalisi"]
   gem.email         = ["scalisia@gmail.com"]
-  gem.description   = %q{Delete route53 record associated to the ec2 node when destroying Vagrant VM.}
+  gem.description   = %q{Delete Route53 record associated to the EC2 node when destroying Vagrant VM using AWS provider.}
   gem.summary       = %q{If a Vagrant VM that was spun up using the AWS provider is destroyed and uses the route53 cookbook, it will leave behind the node route53 record. What vagrant-route53 does is to clean up those previous records during the destroy operation.}
   gem.homepage      = "https://github.com/scalp42/vagrant-route53"
 
